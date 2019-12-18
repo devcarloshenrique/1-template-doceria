@@ -300,3 +300,116 @@ footer p {
 	text-align: center;
 	font-weight: bold;
 }
+
+/* media query */
+
+@media (min-width: 2559px){
+	
+	
+	/*geral*/
+
+	.sessao-descricao p {
+		font-size: 28px;
+	}
+
+	.content h1 {
+		font-size: 52px;
+	}
+
+	.sessao-minibanner {
+		width: 400px;
+		height: 500px;
+	}
+	
+	.content h2 {
+		font-size: 42px;
+	}
+
+	.sessao-bemvindo-btn, #form-contato input[type=submit] {
+		font-size: 30px;
+		padding: 20px 50px;
+	}
+
+	.sessao-bemvindo-btn {
+		width: 150px;
+	}
+
+	#form-contato input[type=submit] {
+		width: 220px;
+	}
+
+	#form-contato input[type=text], #form-contato input[type=email], #form-contato textarea {
+		padding: 20px;
+		margin-bottom: 20px;
+		width: 145%;
+		font-size: 25px;
+	}
+
+	/*sidebar*/
+
+	#sidebar h1 {
+		font-size: 42px;
+	}
+
+	#sidebar a {
+		font-size: 25px;
+	}
+	
+	.logo-doceria {
+		width: 125px;
+		height: 125px;
+	}
+
+	.sidebar-container {
+		width: 245px;
+	}
+
+	/*~sessão bem vindo*/
+
+	#sessao-bemvindo {
+
+		padding-bottom: 35px;
+
+	}
+	
+	/*.sessao-bemvindo-btn {
+		font-size: 30px;
+		padding: 23px 50px;
+	}*/
+
+	.sessao-descricao {
+		left: 470px;
+		padding-right: 130px;
+	}
+
+
+	/*~sessão sobre*/
+
+
+	#sessao-sobre {
+
+		padding-bottom: 35px;
+
+	}
+	
+	#sessao-sobre .sessao-descricao {
+		width: calc(100% - 580px);
+	}
+	
+	#sessao-sobre .sessao-minibanner {
+		margin-right: 82px;
+	}
+
+	#sessao-doces1 div, #sessao-doces2 div , #sessao-doces3 div {
+		height: 280px;
+	}
+
+	
+	/*footer*/
+
+	footer p { 
+		font-size: 25px;
+	}
+
+
+}
