@@ -1,4 +1,4 @@
-# Template 1 - Doceria 
+# Template - Doceria 
 
 ### Objetivo 
 
